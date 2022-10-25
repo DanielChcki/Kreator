@@ -159,7 +159,7 @@ header {
 		height: 90%;
 		transform: translate(5%);
 	}
-	.aboutus-card-title:hover{
+	.aboutus-card-title:hover {
 		cursor: pointer;
 	}
 }
@@ -250,16 +250,6 @@ header {
 		color: $black;
 	}
 
-	.map {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-
-		width: 380px;
-		height: 450px;
-		border: 10px;
-	}
-
 	p.media:hover {
 		color: $main-color;
 
@@ -295,14 +285,6 @@ a.faqhiper {
 		}
 	}
 }
-@media (min-width: 504px) {
-	.contact {
-		.map {
-			width: 500px;
-			height: 620px;
-		}
-	}
-}
 
 @media (min-width: 768px) {
 	header {
@@ -313,13 +295,6 @@ a.faqhiper {
 			font-size: 20px;
 		}
 	}
-
-	.contact {
-		.map {
-			width: 660px;
-			height: 660px;
-		}
-	}
 }
 
 @media (min-width: 992px) {
@@ -327,12 +302,6 @@ a.faqhiper {
 		height: 80px;
 		span.nav-link {
 			display: block;
-		}
-	}
-	.contact {
-		.map {
-			width: 1000px;
-			height: 760px;
 		}
 	}
 }
