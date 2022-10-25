@@ -132,11 +132,12 @@ header {
 	.btn-outline-light {
 		text-transform: uppercase;
 	}
+
 	.fa-solid {
 		position: absolute;
 		left: 50%;
-		transform: translateX(-50%);
-		bottom: 20px;
+		transform: translateX(50%);
+		bottom: 60px;
 		font-size: 30px;
 		color: $white;
 	}
@@ -147,10 +148,12 @@ header {
 		margin-top: 20px;
 		font-size: 30px;
 	}
+
+	
 	.aboutus-card-title {
 		font-size: 18px;
 		text-transform: uppercase;
-	
+
 		margin: 0px 14px 4px;
 	}
 	.aboutus-card-text {
@@ -167,7 +170,8 @@ header {
 	.aboutus-card-title:hover {
 		cursor: pointer;
 	}
-	.aboutus-hover{padding-right: 0px;	
+	.aboutus-hover {
+		padding-right: 0px;
 		padding-left: 10px;
 	}
 	.row {
