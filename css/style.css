@@ -114,7 +114,7 @@ h2 {
 
 .underline {
   margin: 0 auto 40px;
-  width: 60px;
+  width: 70px;
   height: 4px;
   background-color: rgb(25, 177, 191);
 }
@@ -283,7 +283,15 @@ header .fa-solid {
   font-size: 24px;
 }
 
+.portfolio {
+  height: 100vh;
+}
+.portfolio .carousel slide {
+  width: 800px;
+  height: 20px;
+}
 .portfolio .carousel-item {
+  margin-top: 10%;
   position: relative;
 }
 .portfolio h5 a {
@@ -325,14 +333,6 @@ header .fa-solid {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.contact .map {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 380px;
-  height: 450px;
-  border: 10px;
-}
 .contact p.media:hover {
   color: rgb(25, 177, 191);
   transition: scale 0.5s;
@@ -364,22 +364,12 @@ a.faqhiper {
     font-size: 16px;
   }
 }
-@media (min-width: 504px) {
-  .contact .map {
-    width: 500px;
-    height: 620px;
-  }
-}
 @media (min-width: 768px) {
   header h1 {
     font-size: 42px;
   }
   header p {
     font-size: 20px;
-  }
-  .contact .map {
-    width: 660px;
-    height: 660px;
   }
 }
 @media (min-width: 992px) {
@@ -388,10 +378,6 @@ a.faqhiper {
   }
   nav span.nav-link {
     display: block;
-  }
-  .contact .map {
-    width: 1000px;
-    height: 760px;
   }
 }
 @media (min-width: 1200px) {
