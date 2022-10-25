@@ -22,3 +22,5 @@ document.addEventListener(
 
 const collapseElementList = document.querySelectorAll('.collapse')
 const collapseList = [...collapseElementList].map(collapseE5 => new bootstrap.Collapse(false))
+
+

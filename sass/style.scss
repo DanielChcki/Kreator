@@ -225,6 +225,7 @@ header {
 			color: $main-color;
 		}
 	}
+	
 	.carousel-caption {
 		position: absolute;
 		background-color: rgba(0, 0, 0, 0.5);
@@ -242,7 +243,7 @@ header {
 }
 
 .cooperation {
-	position: relative;
+	
 	height: 100vh;
 }
 .contact {
@@ -286,12 +287,13 @@ a.faqhiper {
 @media (min-width: 375px) {
 	header {
 		h1 {
-			font-size: 36px;
+			font-size: 34px;
 		}
 		p {
-			font-size: 16px;
+			font-size: 14px;
 		}
 	}
+	
 }
 
 @media (min-width: 768px) {
@@ -322,10 +324,5 @@ a.faqhiper {
 	.aboutus-hero {
 		background-image: url('../img/brick-Image.png');
 	}
-	.contact {
-		.map {
-			width: 300px;
-			height: 260px;
-		}
-	}
+	
 }
