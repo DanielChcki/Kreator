@@ -201,7 +201,7 @@ header {
 	}
 }
 
-.portfolio {
+.portfolio {position: relative;
 	height: 100vh;
 	.carousel slide {
 		width: 800px;
@@ -244,6 +244,7 @@ header {
 }
 
 .cooperation {
+	position: relative;
 	height: 100vh;
 }
 .contact {
