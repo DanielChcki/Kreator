@@ -203,8 +203,7 @@ header {
 	}
 }
 
-.portfolio {position: relative;
-	height: 100vh;
+.portfolio {
 	.carousel slide {
 		width: 800px;
 		height: 20px;
@@ -213,10 +212,7 @@ header {
 		margin-top: 10%;
 		position: relative;
 	}
-	.container-mobile {
-		position: absolute;
-		height: 100vh;
-	}
+
 	h5 {
 		a {
 			color: $white;

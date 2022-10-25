@@ -285,10 +285,6 @@ header .fa-solid {
   font-size: 24px;
 }
 
-.portfolio {
-  position: relative;
-  height: 100vh;
-}
 .portfolio .carousel slide {
   width: 800px;
   height: 20px;
@@ -296,10 +292,6 @@ header .fa-solid {
 .portfolio .carousel-item {
   margin-top: 10%;
   position: relative;
-}
-.portfolio .container-mobile {
-  position: absolute;
-  height: 100vh;
 }
 .portfolio h5 a {
   color: white;
