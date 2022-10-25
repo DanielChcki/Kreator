@@ -150,9 +150,13 @@ header {
 	.aboutus-card-title {
 		font-size: 18px;
 		text-transform: uppercase;
+	
+		margin: 0px 14px 4px;
 	}
 	.aboutus-card-text {
 		font-size: 14px;
+		margin: 0px 16px 16px;
+		text-align: center;
 	}
 	.card-body {
 		background-color: $bg-color;
@@ -163,7 +167,9 @@ header {
 	.aboutus-card-title:hover {
 		cursor: pointer;
 	}
-
+	.aboutus-hover{padding-right: 0px;	
+		padding-left: 10px;
+	}
 	.row {
 		width: 100%;
 	}

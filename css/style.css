@@ -234,9 +234,12 @@ header .fa-solid {
 .aboutus .aboutus-card-title {
   font-size: 18px;
   text-transform: uppercase;
+  margin: 0px 14px 4px;
 }
 .aboutus .aboutus-card-text {
   font-size: 14px;
+  margin: 0px 16px 16px;
+  text-align: center;
 }
 .aboutus .card-body {
   background-color: #ebeff6;
@@ -246,6 +249,10 @@ header .fa-solid {
 }
 .aboutus .aboutus-card-title:hover {
   cursor: pointer;
+}
+.aboutus .aboutus-hover {
+  padding-right: 0px;
+  padding-left: 10px;
 }
 .aboutus .row {
   width: 100%;
