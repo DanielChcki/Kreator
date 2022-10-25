@@ -247,6 +247,9 @@ header .fa-solid {
 .aboutus .aboutus-card-title:hover {
   cursor: pointer;
 }
+.aboutus .row {
+  width: 100%;
+}
 
 .aboutus-hover:hover {
   color: rgb(25, 177, 191);
