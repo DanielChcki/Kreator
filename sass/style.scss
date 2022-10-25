@@ -150,9 +150,12 @@ header {
 	.aboutus-card-title {
 		font-size: 18px;
 		text-transform: uppercase;
+		margin: 0px 10px 4px;
+		
 	}
 	.aboutus-card-text {
 		font-size: 14px;
+		margin: 0px 8px 4px;
 	}
 	.card-body {
 		background-color: $bg-color;
