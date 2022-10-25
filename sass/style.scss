@@ -41,7 +41,6 @@ nav {
 	.logo {
 		height: 40px;
 		width: 40px;
-	
 	}
 	.logo-bottom {
 		position: absolute;
@@ -204,13 +203,17 @@ header {
 
 .portfolio {
 	height: 100vh;
-	.carousel slide{
+	.carousel slide {
 		width: 800px;
 		height: 20px;
 	}
 	.carousel-item {
 		margin-top: 10%;
 		position: relative;
+	}
+	.container-mobile {
+		position: absolute;
+		height: 100vh;
 	}
 	h5 {
 		a {

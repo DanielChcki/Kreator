@@ -294,6 +294,10 @@ header .fa-solid {
   margin-top: 10%;
   position: relative;
 }
+.portfolio .container-mobile {
+  position: absolute;
+  height: 100vh;
+}
 .portfolio h5 a {
   color: white;
   text-decoration: none;
